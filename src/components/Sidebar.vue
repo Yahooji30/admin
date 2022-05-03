@@ -2,9 +2,13 @@
   <div class="realative flex h-[100vh]">
     <!-- Sidebar -->
     <div class="bg-violet-50 text-black w-[18rem]">
-      <div class="flex justify-start items-center py-4 mb-4 px-4 bg-violet-700">
-        <img src="../assets/dot.png" class="w-7 h-7 mx-2 mt-1" />
-        <span class="text-white text-3xl">DECORE</span>
+      <div class="flex justify-start items-center py-4 mb-3 px-4 bg-violet-700">
+        <img src="../assets/dot.png" class="w-7 h-7 ml-2 mr-3 mt-1" />
+        <img
+          src="https://see.fontimg.com/api/renderfont4/nRRd0/eyJyIjoiZnMiLCJoIjo1NiwidyI6MTI1MCwiZnMiOjQ1LCJmZ2MiOiIjRkZGRkZGIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/RGVjb3Jl/mandatory-plaything.png"
+          alt="logo"
+          class="w-36"
+        />
       </div>
       <nav class="px-4">
         <Nav text="Add Members" :icon="icons[0]" link="/dashboard" />
