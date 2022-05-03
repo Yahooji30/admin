@@ -56,7 +56,8 @@
                 <router-link
                   :to="`/dashboard/editproduct/${product.id}`"
                   class="font-medium text-blue-600 dark:text-blue-500 hover:underline cursor-pointer"
-                  ><svg
+                >
+                  <svg
                     xmlns="http://www.w3.org/2000/svg"
                     x="0px"
                     y="0px"
@@ -87,8 +88,9 @@
                           d="M131.96744,14.33333c-1.83467,0 -3.66956,0.70211 -5.06706,2.09961l-14.33333,14.33333l-10.13411,10.13411l-80.93294,80.93294v28.66667h28.66667l105.40039,-105.40039c2.80217,-2.80217 2.80217,-7.33911 0,-10.13412l-18.53255,-18.53255c-1.3975,-1.3975 -3.23239,-2.09961 -5.06706,-2.09961zM131.96744,31.63411l8.39844,8.39844l-9.26628,9.26628l-8.39844,-8.39844zM112.56706,51.03451l8.39844,8.39844l-76.73372,76.73372h-8.39844v-8.39844z"
                         ></path>
                       </g>
-                    </g></svg
-                ></router-link>
+                    </g>
+                  </svg>
+                </router-link>
                 <a
                   @click="removeProduct(product.id)"
                   class="font-medium text-red-600 dark:red-blue-500 hover:underline cursor-pointer"
