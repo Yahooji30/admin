@@ -6,7 +6,6 @@
       <h4 class="my-2 text-sm">See our some best Works</h4>
     </div>
     <div>
-      
       <section class="overflow-hidden text-gray-700">
         <div class="container py-2 mx-auto lg:pt-5">
           <div class="flex flex-wrap -m-1 md:-m-2">
@@ -15,21 +14,21 @@
                 <img
                   alt="gallery"
                   class="block object-cover object-center w-full h-full rounded-lg"
-                  src="../assets/images/a2.jpg"
+                  src="../assets/images/a2-min.jpg"
                 />
               </div>
               <div class="w-1/2 p-1 md:p-2">
                 <img
                   alt="gallery"
                   class="block object-cover object-center w-full h-full rounded-lg"
-                  src="../assets/images/a5.jpg"
+                  src="../assets/images/a5-min.jpg"
                 />
               </div>
               <div class="w-full p-1 md:p-2">
                 <img
                   alt="gallery"
                   class="block object-cover object-center w-full h-full rounded-lg"
-                  src="../assets/images/a3.jpg"
+                  src="../assets/images/a3-min.jpg"
                 />
               </div>
             </div>
@@ -38,21 +37,21 @@
                 <img
                   alt="gallery"
                   class="block object-cover object-center w-full h-full rounded-lg"
-                  src="../assets/images/a1.jpg"
+                  src="../assets/images/a1-min.jpg"
                 />
               </div>
               <div class="w-1/2 p-1 md:p-2">
                 <img
                   alt="gallery"
                   class="block object-cover object-center w-full h-full rounded-lg"
-                  src="../assets/images/a4.jpg"
+                  src="../assets/images/a4-min.jpg"
                 />
               </div>
               <div class="w-1/2 p-1 md:p-2">
                 <img
                   alt="gallery"
                   class="block object-cover object-center w-full h-full rounded-lg"
-                  src="../assets/images/a6.jpg"
+                  src="../assets/images/a6-min.jpg"
                 />
               </div>
             </div>
@@ -68,7 +67,7 @@
                 <img
                   alt="gallery"
                   class="block object-cover object-center w-full h-full rounded-lg"
-                  src="../assets/images/a14.jpg"
+                  src="../assets/images/a14-min.jpg"
                 />
               </div>
             </div>
@@ -77,7 +76,7 @@
                 <img
                   alt="gallery"
                   class="block object-cover object-center w-full h-full rounded-lg"
-                  src="../assets/images/a16.jpg"
+                  src="../assets/images/a16-min.jpg"
                 />
               </div>
             </div>
@@ -86,7 +85,7 @@
                 <img
                   alt="gallery"
                   class="block object-cover object-center w-full h-full rounded-lg"
-                  src="../assets/images/a15.jpg"
+                  src="../assets/images/a15-min.jpg"
                 />
               </div>
             </div>
@@ -95,7 +94,7 @@
                 <img
                   alt="gallery"
                   class="block object-cover object-center w-full h-full rounded-lg"
-                  src="../assets/images/a17.jpg"
+                  src="../assets/images/a17-min.jpg"
                 />
               </div>
             </div>
@@ -104,7 +103,7 @@
                 <img
                   alt="gallery"
                   class="block object-cover object-center w-full h-full rounded-lg"
-                  src="../assets/images/a18.jpg"
+                  src="../assets/images/a18-min.jpg"
                 />
               </div>
             </div>
@@ -113,7 +112,7 @@
                 <img
                   alt="gallery"
                   class="block object-cover object-center w-full h-full rounded-lg"
-                  src="../assets/images/a19.jpg"
+                  src="../assets/images/a19-min.jpg"
                 />
               </div>
             </div>
@@ -122,7 +121,7 @@
                 <img
                   alt="gallery"
                   class="block object-cover object-center w-full h-full rounded-lg"
-                  src="../assets/images/a8.jpg"
+                  src="../assets/images/a8-min.jpg"
                 />
               </div>
             </div>
@@ -131,7 +130,7 @@
                 <img
                   alt="gallery"
                   class="block object-cover object-center w-full h-full rounded-lg"
-                  src="../assets/images/a11.jpg"
+                  src="../assets/images/a11-min.jpg"
                 />
               </div>
             </div>
@@ -140,69 +139,13 @@
                 <img
                   alt="gallery"
                   class="block object-cover object-center w-full h-full rounded-lg"
-                  src="../assets/images/a13.jpg"
-                />
-              </div>
-            </div>
-
-            <div class="flex flex-wrap w-1/3">
-              <div class="w-full p-1 md:p-2">
-                <img
-                  alt="gallery"
-                  class="block object-cover object-center w-full h-full rounded-lg"
-                  src="../assets/images/a23.jpg"
-                />
-              </div>
-            </div>
-            <div class="flex flex-wrap w-1/3">
-              <div class="w-full p-1 md:p-2">
-                <img
-                  alt="gallery"
-                  class="block object-cover object-center w-full h-full rounded-lg"
-                  src="../assets/images/a25.jpg"
-                />
-              </div>
-            </div>
-            <div class="flex flex-wrap w-1/3">
-              <div class="w-full p-1 md:p-2">
-                <img
-                  alt="gallery"
-                  class="block object-cover object-center w-full h-full rounded-lg"
-                  src="../assets/images/a24.jpg"
-                />
-              </div>
-            </div>
-            <div class="flex flex-wrap w-1/3">
-              <div class="w-full p-1 md:p-2">
-                <img
-                  alt="gallery"
-                  class="block object-cover object-center w-full h-full rounded-lg"
-                  src="../assets/images/a26.jpg"
-                />
-              </div>
-            </div>
-            <div class="flex flex-wrap w-1/3">
-              <div class="w-full p-1 md:p-2">
-                <img
-                  alt="gallery"
-                  class="block object-cover object-center w-full h-full rounded-lg"
-                  src="../assets/images/a21.jpg"
-                />
-              </div>
-            </div>
-            <div class="flex flex-wrap w-1/3">
-              <div class="w-full p-1 md:p-2">
-                <img
-                  alt="gallery"
-                  class="block object-cover object-center w-full h-full rounded-lg"
-                  src="../assets/images/a22.jpg"
+                  src="../assets/images/a13-min.jpg"
                 />
               </div>
             </div>
           </div>
         </div>
       </section>
-
     </div>
   </div>
   <Footer />
@@ -212,5 +155,3 @@
 import BlackHeader from "../components/blackHeader.vue";
 import Footer from "../components/Footer.vue";
 </script>
-
-<style lang="scss" scoped></style>

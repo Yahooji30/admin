@@ -12,16 +12,21 @@
         :key="item.id"
       >
         <div>
-          <img :src="item.thumbnail" class="bject-contain rounded-t-md" />
+          <img :src="item.productImage" class="bject-contain rounded-t-md" />
         </div>
         <div class="px-2 py-1.5">
-          <p class="text-[1.05rem] tracking-wide">
+          <p class="text-[1.3rem] font-semibold tracking-wide">
+            {{ item.productName }}
+          </p>
+        </div>
+        <div class="px-2 py-1.5">
+          <p class="text-[0.8rem] tracking-wide">
             {{ item.description }}
           </p>
         </div>
         <div class="py-4 px-1.5">
-          <span class="text-gray-900 mr-1 text-2xl">Price : </span>
-          <span class="text-red-600 text-xl">{{ item.price }}</span>
+          <span class="text-gray-900 mr-1 text-xl">Price : </span>
+          <span class="text-red-600 text-xl">₹ {{ item.price }}</span>
         </div>
       </div>
     </div>
@@ -35,56 +40,59 @@
 <script setup>
 import BlackHeader from "../components/blackHeader.vue";
 import Footer from "../components/Footer.vue";
-const items = [
-  {
-    id: 1,
-    description: "White,clean,bright and simple finishing modular kitchen",
-    thumbnail: "/src/assets/images/a28.jpg",
-    price: "₹180000",
-  },
-  {
-    id: 2,
-    description: "White,clean,bright and simple finishing modular kitchen",
-    thumbnail: "/src/assets/images/a27.jpg",
-    price: "₹160000",
-  },
-  {
-    id: 3,
-    description: "White,clean,bright and simple finishing modular kitchen",
-    thumbnail: "/src/assets/images/a26.jpg",
-    price: "₹110000",
-  },
-  {
-    id: 4,
-    description: "White,clean,bright and simple finishing modular kitchen",
-    thumbnail: "/src/assets/images/a25.jpg",
-    price: "₹180000",
-  },
-  {
-    id: 5,
-    description: "White,clean,bright and simple finishing modular kitchen",
-    thumbnail: "/src/assets/images/a24.jpg",
-    price: "₹280000",
-  },
-  {
-    id: 6,
-    description: "White,clean,bright and simple finishing modular kitchen",
-    thumbnail: "/src/assets/images/a23.jpg",
-    price: "₹185000",
-  },
-  {
-    id: 7,
-    description: "White,clean,bright and simple finishing modular kitchen",
-    thumbnail: "/src/assets/images/a22.jpg",
-    price: "₹130000",
-  },
-  {
-    id: 8,
-    description: "White,clean,bright and simple finishing modular kitchen",
-    thumbnail: "/src/assets/images/a21.jpg",
-    price: "₹249000",
-  },
-];
+import { getKitchenProducts } from "../db/fireBase";
+
+const items = getKitchenProducts();
+// const items = [
+//   {
+//     id: 1,
+//     description: "White,clean,bright and simple finishing modular kitchen",
+//     thumbnail: "/src/assets/images/a28.jpg",
+//     price: "₹180000",
+//   },
+//   {
+//     id: 2,
+//     description: "White,clean,bright and simple finishing modular kitchen",
+//     thumbnail: "/src/assets/images/a27.jpg",
+//     price: "₹160000",
+//   },
+//   {
+//     id: 3,
+//     description: "White,clean,bright and simple finishing modular kitchen",
+//     thumbnail: "/src/assets/images/a26.jpg",
+//     price: "₹110000",
+//   },
+//   {
+//     id: 4,
+//     description: "White,clean,bright and simple finishing modular kitchen",
+//     thumbnail: "/src/assets/images/a25.jpg",
+//     price: "₹180000",
+//   },
+//   {
+//     id: 5,
+//     description: "White,clean,bright and simple finishing modular kitchen",
+//     thumbnail: "/src/assets/images/a24.jpg",
+//     price: "₹280000",
+//   },
+//   {
+//     id: 6,
+//     description: "White,clean,bright and simple finishing modular kitchen",
+//     thumbnail: "/src/assets/images/a23.jpg",
+//     price: "₹185000",
+//   },
+//   {
+//     id: 7,
+//     description: "White,clean,bright and simple finishing modular kitchen",
+//     thumbnail: "/src/assets/images/a22.jpg",
+//     price: "₹130000",
+//   },
+//   {
+//     id: 8,
+//     description: "White,clean,bright and simple finishing modular kitchen",
+//     thumbnail: "/src/assets/images/a21.jpg",
+//     price: "₹249000",
+//   },
+// ];
 </script>
 
 <style lang="scss" scoped></style>

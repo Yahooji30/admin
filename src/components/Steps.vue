@@ -3,7 +3,7 @@
     <div class="container px-[10%] py-24 mx-auto flex flex-wrap">
       <div class="flex flex-col w-full mb-20 flex-wrap">
         <h1
-          class="sm:text-3xl text-2xl  title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-1 customFont font-semibold"
+          class="sm:text-3xl text-2xl title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-1 customFont font-semibold"
         >
           How we work
         </h1>
@@ -135,7 +135,7 @@
         </div>
         <img
           class="lg:w-3/5 md:w-1/2 object-cover object-center h-[35rem] rounded-lg md:mt-0 mt-12"
-          src="../assets/images/a1.jpg"
+          src="../assets/images/a1-min.jpg"
           alt="step"
         />
       </div>

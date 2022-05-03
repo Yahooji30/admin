@@ -19,21 +19,21 @@
             <img
               alt="gallery"
               class="w-full object-cover h-full object-center block"
-              src="../assets/images/a3.jpg"
+              src="../assets/images/a3-min.jpg"
             />
           </div>
           <div class="md:p-2 p-1 w-1/2">
             <img
               alt="gallery"
               class="w-full object-cover h-full object-center block"
-              src="../assets/images/a4.jpg"
+              src="../assets/images/a4-min.jpg"
             />
           </div>
           <div class="md:p-2 p-1 w-full">
             <img
               alt="gallery"
               class="w-full h-full object-cover object-center block"
-              src="../assets/images/a5.jpg"
+              src="../assets/images/a5-min.jpg"
             />
           </div>
         </div>
@@ -42,21 +42,21 @@
             <img
               alt="gallery"
               class="w-full h-full object-cover object-center block"
-              src="../assets/images/a6.jpg"
+              src="../assets/images/a6-min.jpg"
             />
           </div>
           <div class="md:p-2 p-1 w-1/2">
             <img
               alt="gallery"
               class="w-full object-cover h-full object-center block"
-              src="../assets/images/a7.jpg"
+              src="../assets/images/a7-min.jpg"
             />
           </div>
           <div class="md:p-2 p-1 w-1/2">
             <img
               alt="gallery"
               class="w-full object-cover h-full object-center block"
-              src="../assets/images/a8.jpg"
+              src="../assets/images/a8-min.jpg"
             />
           </div>
         </div>

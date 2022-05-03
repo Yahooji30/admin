@@ -1,13 +1,11 @@
 <template>
   <router-link :to="link" class="router-class">
-    <img class="w-6 h-6 mt-0.5" :src="imgSrc" :alt="text" />
+    <img class="w-6 h-6 mt-0.5" :src="icon" :alt="text" />
     <span class="text-xl">{{ text }}</span>
   </router-link>
 </template>
 
 <script setup>
-import { computed } from "@vue/runtime-core";
-
 const props = defineProps({
   text: String,
   icon: String,
@@ -15,10 +13,6 @@ const props = defineProps({
 });
 
 const { text, icon, link } = props;
-
-const imgSrc = computed(() => {
-  return `/src/assets/${icon}`;
-});
 </script>
 <style scope>
 .router-class {

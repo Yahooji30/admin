@@ -21,6 +21,10 @@ import Lighting from "../pages/lighting.vue";
 import Wadrobe from "../pages/wadrobe.vue";
 import FDAccessories from "../pages/fdaccessories.vue";
 import Wall from "../pages/wall.vue";
+import AddProduct from "../pages/addProduct.vue";
+import ViewProduct from "../pages/viewProducts.vue";
+import EditProduct from "../pages/editProduct.vue";
+
 const routes = [
   {
     path: "/",
@@ -91,6 +95,21 @@ const routes = [
         path: "/dashboard/messages",
         name: Messages,
         component: Messages,
+      },
+      {
+        path: "/dashboard/addproduct",
+        name: AddProduct,
+        component: AddProduct,
+      },
+      {
+        path: "/dashboard/products",
+        name: ViewProduct,
+        component: ViewProduct,
+      },
+      {
+        path: "/dashboard/editproduct/:id",
+        name: EditProduct,
+        component: EditProduct,
       },
     ],
   },

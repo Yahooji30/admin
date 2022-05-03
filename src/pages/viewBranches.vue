@@ -1,6 +1,8 @@
 <template>
   <div class="flex h-[100vh] w-full items-center justify-center">
-    <div class="w-[70rem] rounded-md bg-white p-6 px-8">
+    <div
+      class="w-[75rem] h-[90vh] rounded-md bg-white p-6 px-8 overflow-y-auto"
+    >
       <div class="relative overflow-x-auto sm:rounded-lg">
         <div class="py-6">
           <span v-if="isSuccess" class="text-green-500 text-center text-sm"
@@ -88,4 +90,8 @@ async function removeBranch(id) {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style scoped>
+::-webkit-scrollbar {
+  display: none;
+}
+</style>

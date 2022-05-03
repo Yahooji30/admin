@@ -15,18 +15,23 @@
       >
         <div>
           <img
-            :src="item.thumbnail"
+            :src="item.productImage"
             class="bject-contain rounded-t-md w-full h-44"
           />
         </div>
         <div class="px-2 py-1.5">
-          <p class="text-[1.05rem] tracking-wide">
+          <p class="text-[1.3rem] tracking-wide">
+            {{ item.productName }}
+          </p>
+        </div>
+        <div class="px-2 py-1.5">
+          <p class="text-[0.8rem] tracking-wide">
             {{ item.description }}
           </p>
         </div>
         <div class="py-4 px-1.5">
-          <span class="text-gray-900 mr-1 text-2xl">Price : </span>
-          <span class="text-red-600 text-xl">{{ item.price }}</span>
+          <span class="text-gray-900 mr-1 text-xl">Price : </span>
+          <span class="text-red-600 text-xl">₹ {{ item.price }}</span>
         </div>
       </div>
     </div>
@@ -40,56 +45,7 @@
 <script setup>
 import BlackHeader from "../components/blackHeader.vue";
 import Footer from "../components/Footer.vue";
-const items = [
-  {
-    id: 1,
-    description: "White,clean,bright and simple finishing modular kitchen",
-    thumbnail: "/src/assets/images/a65.jpg",
-    price: "₹80000",
-  },
-  {
-    id: 2,
-    description: "White,clean,bright and simple finishing modular kitchen",
-    thumbnail: "/src/assets/images/a66.jpg",
-    price: "₹75000",
-  },
-  {
-    id: 3,
-    description: "White,clean,bright and simple finishing modular kitchen",
-    thumbnail: "/src/assets/images/a67.jpg",
-    price: "₹110000",
-  },
-  {
-    id: 4,
-    description: "White,clean,bright and simple finishing modular kitchen",
-    thumbnail: "/src/assets/images/a68.jpg",
-    price: "₹18000",
-  },
-  {
-    id: 5,
-    description: "White,clean,bright and simple finishing modular kitchen",
-    thumbnail: "/src/assets/images/a69.jpg",
-    price: "₹280000",
-  },
-  {
-    id: 6,
-    description: "White,clean,bright and simple finishing modular kitchen",
-    thumbnail: "/src/assets/images/a70.jpg",
-    price: "₹185000",
-  },
-  {
-    id: 7,
-    description: "White,clean,bright and simple finishing modular kitchen",
-    thumbnail: "/src/assets/images/a71.jpg",
-    price: "₹24000",
-  },
-  {
-    id: 8,
-    description: "White,clean,bright and simple finishing modular kitchen",
-    thumbnail: "/src/assets/images/a72.jpg",
-    price: "₹90000",
-  },
-];
-</script>
+import { getPWProducts } from "../db/fireBase";
 
-<style lang="scss" scoped></style>
+const items = getPWProducts();
+</script>

@@ -6,7 +6,7 @@
       >
         <img
           class="object-cover object-center w-full h-full "
-          src="../assets/images/a13.jpg"
+          src="../assets/images/a13-min.jpg"
           alt="stats"
         />
       </div>

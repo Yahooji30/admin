@@ -1,6 +1,8 @@
 <template>
   <div class="flex h-[100vh] w-full items-center justify-center">
-    <div class="w-[75rem] rounded-md bg-white p-6 px-8">
+    <div
+      class="w-[75rem] h-[90vh] rounded-md bg-white p-6 px-8 overflow-y-auto"
+    >
       <div class="relative overflow-x-auto sm:rounded-lg">
         <div class="py-6">
           <h1 class="text-4xl">Messages</h1>
@@ -45,12 +47,12 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
 import { getMessages } from "../db/fireBase";
 const messages = getMessages();
-
-const isSuccess = ref(false);
-const isError = ref(false);
 </script>
 
-<style lang="scss" scoped></style>
+<style scoped>
+::-webkit-scrollbar {
+  display: none;
+}
+</style>

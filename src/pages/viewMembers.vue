@@ -1,6 +1,8 @@
 <template>
   <div class="flex h-[100vh] w-full items-center justify-center">
-    <div class="w-[75rem] rounded-md bg-white p-6 px-8">
+    <div
+      class="w-[75rem] h-[90vh] rounded-md bg-white p-6 px-8 overflow-y-auto"
+    >
       <div class="relative overflow-x-auto sm:rounded-lg">
         <div class="py-6">
           <span v-if="isSuccess" class="text-green-500 text-center text-sm"
@@ -9,7 +11,7 @@
           <span v-if="isError" class="text-red-500 text-center text-sm"
             >Data Not Deleted !!</span
           >
-          <h1 class="text-4xl">members</h1>
+          <h1 class="text-4xl">Members</h1>
           <h4 class="my-2 text-sm font-light">Your members details</h4>
         </div>
         <table
@@ -98,4 +100,8 @@ async function removeMember(id) {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style scoped>
+::-webkit-scrollbar {
+  display: none;
+}
+</style>
